@@ -1,0 +1,20 @@
+This is all the source code for the book: Using FPGA Modules for Data Acquisition and Control, Author: Dennis Bingaman
+
+All the exersizes in this book will use Vivado for building the FPGA bit file and Visual Studio 2017 for building the PC side software.
+
+For each project in this book when building the bit file, follow these instructions:
+
+1.  From the 'VivadoXEM7001TemplateProject' folder copy the 'XEM7001Template.zip' file to a seperate directory on your computer.
+2.  Unzip the file, then open the project using Vivado, specifical open the project file: XEM7001Template.xpr file.
+3.  Replace the TopLevel.vhd file with the one from the chapter in the book for the specific exersize.
+4.  Replace the xem7001.xdc file with the one from the chapter in the book for the specific exersize.
+5.  Build the project all stages up to and including generating the bit file.
+
+For each project in this book when building the Visual Studio PC side software, follow these instructions:
+
+1.  From the 'VisualStudioOKFPGATemplateProject' folder copy the 'OKFPGA_USB2_0_TemplateProject.zip file to a seperate directory on your computer.
+2.  Unzip the file, then open the project using Visual Studio, specifically open the project file: 'OKFPGA_USB2_0_TemplateProject.sln'
+3.  Replace the App.c file with the one from the chapter in the book for the specific exersize.
+4.  Copy the appropriate TopLevel.bit file from the corresponding Vivado project to this projects directory, overwriting the one that is currently here.
+5.  Build the project, after this you can run the project in debug mode.
+
